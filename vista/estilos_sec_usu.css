@@ -1,0 +1,395 @@
+body {
+	margin: 5px;
+	padding: 0px;
+}
+
+.fondo{
+	background: #222;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+header {
+	margin: 0px;
+	margin-bottom: 40px;
+	padding: 10px;
+	background:rgb(63, 72, 204);
+	height: 150px;
+	display: block;
+	z-index: 9;
+	text-shadow: -3px 5px #000;
+	box-shadow:  0px 5px 5px #000;
+	overflow: hidden;
+}
+
+.foto_per_usu{
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	background: rgb(255, 255, 255);
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	overflow: hidden;
+	box-shadow: -5px 5px 5px #264d73;
+	border: 3px solid white;
+	z-index: 97;
+	
+}
+.fot_per{
+
+	vertical-align: middle;
+	width:  100%;
+	position: relative;
+	
+}
+.nom_usu{
+	margin-top: 50px;
+	margin-left: 380px;
+	font-size: 100px;
+	font-family: sans-serif;
+	color: white;
+	display: inline-block;
+}
+.red_blog{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 100px;
+	font-family: sans-serif;
+	color: white;
+	display: inline-block;
+}
+.cer_sec{
+	color: white;
+	float: right;
+	text-decoration: none;
+	text-shadow: 1px 1px  5px black;
+}
+.dat_usu{
+
+margin-top: 150px;
+margin-left: 0px;
+width: 200px;
+color: white;
+
+}
+}
+.dat_usus{
+
+color: white;
+
+}
+.nombre_barra{
+	color: white;
+	margin-left: 20px;
+	font-size: 24px;
+}
+.dat_usu_ed{
+		border: 2px solid white;
+		width: 225px;
+		margin-left: 5px;
+		padding: 20px
+
+}
+
+
+.cont_chat{
+
+	background:white;
+	height: 500px;
+	width:270px;
+	display: none;
+	color: black;
+
+}
+.usu_chat{
+	border: 1px solid black;
+	padding: 5px;
+	height: 75px;
+}
+.fot_chat{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.nom_usu_chat{
+	
+	margin-top: -50px;
+	margin-left: 85px;
+}
+.publi{
+	
+	width: 275px;
+	display: block;
+	background:rgb(63, 72, 204);
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 30px;
+	text-shadow: 3px 3px 5px black;
+	box-shadow: -5px 3px 5px #666;
+
+}
+.publi:hover {
+	background:rgb(40, 49, 153);
+}
+.publi2{
+	
+	width: 275px;
+	display: block;
+	background:rgb(63, 72, 204);
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 30px;
+	text-shadow: 3px 3px 5px black;
+	box-shadow: -5px 3px 5px #666;
+
+}
+.publi2:hover {
+	background:rgb(40, 49, 153);
+}
+.dat_usu_in{
+	color: white;
+	display: block;
+	margin:  10px 0px;
+	padding: 10px;
+	width: 200px;
+	
+	border-radius: 5px;
+	border: none;
+	box-shadow: -5px -2px white;
+	background: rgba(0,0,0,0);
+}
+.flotar{
+	float: right;
+	margin-top: 20px;
+	margin-right: -20px;
+	background: #007acc;
+	display: block;
+	text-align: center;
+	border: none;
+	color: white;
+	font-size: 18;
+	border-radius: 0px 0px 5px 5px;
+	padding: 10px;
+
+}
+.flotar:hover{
+	background:  #00ff00;
+	padding: 2px 10px 0px 10px;
+	padding: 7px 10px;
+}
+.publicacion{
+	width: 80%;
+
+	background:rgba(255,255,255, 0.3);
+	position: absolute;
+	right: 5px;
+	top: 180px;
+	z-index: 1;
+	text-align: center;
+}
+
+.entrada_articulo{
+	margin: 20px;
+	padding: 10px;
+	background: rgba(0,0,0,0.8);
+	border-radius: 5px;
+}
+.int_art{
+	display: block;
+	width: 98%;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 5px;
+}
+
+
+footer{
+	background: #FDC12A;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 99;
+	
+}
+.div_foo{
+	display: inline-block;
+	margin: 5px;
+}
+.fon{
+	background: rgba(0,0,0,0);
+	border:none;
+	color: white;
+}
+.crear{
+	float:right;
+	background: #007acc;
+	color: white;
+	border:none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-top: -86px;
+}
+.fil{
+	position: absolute;
+	left: 30px;
+	width: 100px;
+	height: 40px;
+	opacity: 0;
+}
+.btn_fil{
+	float:left;
+	background: #007acc;
+	color: white;
+	border:none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+p{margin: 0px;}
+
+.publica{
+	text-align: left;
+	padding: 5px 10px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	border-radius: 5px;
+	margin: 10px 20px;
+}
+.fech{
+	float: right;
+	margin-top: -45px;
+}
+.img_pub{
+	width:200px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.menu{
+	display: none;
+}
+.link_pag{
+	margin-bottom: 50px;
+	margin-left: 5px;
+	display: inline-block;
+
+}
+.l_p{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+
+@media only screen and (max-width: 1350px) {
+	.menu{
+		top: 10px;
+		left: 10px;
+		background-image: url('../iconos/iconMen.png');
+		background-size: 80px;
+		background-repeat: no-repeat;
+		display: block;
+		position: fixed;
+		z-index: 99;
+		width: 80px;
+		height: 80px;
+	}
+
+.dat_usu{
+	position: fixed;
+	z-index: 98;
+	background: black;
+	top: -150px;
+	left: -420px;
+	width: 250px;
+	height: 100%;
+	border: 2px solid #666;
+	color: white;
+
+}
+.nombre_barra{
+ margin-top: 120px;
+ margin-left: 30px;
+}
+.dat_usu_ed{
+	margin-top: 20px;
+	width: 203px;
+	border: none;
+	box-shadow: -2px 2px 3px #666;
+
+}
+.dat_usu_in{
+	margin-left: 0px;
+	color: #666;
+	box-shadow: -2px 2px 3px #666;
+}
+
+.flotar{
+	margin-top: 20px;
+	padding: 10px;
+	margin-right: -20px;
+}
+.flotar:hover{
+	background:  #00ff00;
+	padding: 10px;
+	
+}
+.publi{
+
+	margin-top: 0px;
+	width: 250px;
+	display: block;
+	background:rgb(63, 72, 204);
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 30px;
+	text-shadow: 3px 3px 5px black;
+	box-shadow: -5px 3px 5px #666;
+}
+.publi:hover {
+	background:rgb(40, 49, 153);
+}
+.publi2{
+	margin-top: 100px;
+	width: 250px;
+	display: block;
+	background:rgb(63, 72, 204);
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 30px;
+	text-shadow: 3px 3px 5px black;
+	box-shadow: -5px 3px 5px #666;
+}
+.publi2:hover {
+	background:rgb(40, 49, 153);
+}
+.publicacion{
+
+width: 100%;
+}
+.foto_per_usu{
+	width: 180px;
+	height: 180px;
+	top: 5px;
+	left: 90px;
+}
+.nom_usu{
+	margin-top: 50px;
+	margin-left: 280px;
+	font-size: 100px;
+}
+
+}
